@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: auto 60px "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+body, html{
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+} 
+.container{
+    background: linear-gradient(to bottom, #febf01 0%, #febf01 100%);
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.container-2{
+    display: flex;
+    width: 100%;
+}
+.container-3{
+    background: linear-gradient(to bottom, #b8c6df 0%, #6d88b7 100%);
+    flex:4;
+}
+.footer{
+    background: linear-gradient(to bottom, #dd9a3d 0%, #ca8a30 100%);
+    height: 15vh;
+}
+.aside-2{
+    flex:1;
+}
+.header{
+    background: linear-gradient(to bottom, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67% );
+    height: 10vh;
+    padding-top: 3vh;
+}
+.aside-1{
+    width: 20%;
+    background: linear-gradient(to bottom, #b8c6df 0%, #6d88b7 100%);
+}
+.container-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.container-5{
+    width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+.nav{
+    background: linear-gradient(to bottom, #dd9a3d 0%, #ca8a30 100%);
+    height: 10%;    
+}
+.main{
+background-image: linear-gradient(230deg,
+            hsl(240deg 24% 72%) 0%,
+            hsl(271deg 36% 74%) 11%,
+            hsl(306deg 47% 75%) 22%,
+            hsl(330deg 100% 81%) 34%,
+            hsl(340deg 100% 81%) 45%,
+            hsl(359deg 100% 81%) 56%,
+            hsl(19deg 100% 75%) 67%,
+            hsl(35deg 100% 68%) 78%,
+            hsl(47deg 100% 60%) 89%,
+            hsl(55deg 100% 50%) 100%);
+    flex:1;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+h1{
+    color:black;
+}

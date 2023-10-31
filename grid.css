@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: auto 60px "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+body,
+html {
+    height: 100%;
+}
+.wrapper{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+.header{
+    background: linear-gradient(to bottom, #febf01 0%, #febf01 100%);
+    grid-column: 1/8;
+    grid-row: 1/1;
+    padding-top: 3vh;
+}
+.aside-2{
+    background: linear-gradient(to bottom, #b8c6df 0%, #6d88b7 100%);
+    grid-column: 8/11;
+    grid-row: 1/9;
+}
+.aside-1{
+    background: linear-gradient(to bottom, #dd9a3d 0%, #ca8a30 100%);
+    grid-row:2/9;
+    grid-column: 1/3;
+}
+.nav{
+   
+    background: linear-gradient(to bottom,  #83c783 17%, #52b152 33%, #008a00 67%);
+    grid-row: 2/3;
+    grid-column: 3/8;
+}
+.main{
+background-image: linear-gradient(230deg,
+            hsl(240deg 24% 72%) 0%,
+            hsl(271deg 36% 74%) 11%,
+            hsl(306deg 47% 75%) 22%,
+            hsl(330deg 100% 81%) 34%,
+            hsl(340deg 100% 81%) 45%,
+            hsl(359deg 100% 81%) 56%,
+            hsl(19deg 100% 75%) 67%,
+            hsl(35deg 100% 68%) 78%,
+            hsl(47deg 100% 60%) 89%,
+            hsl(55deg 100% 50%) 100%);
+    grid-column: 3/8;
+    grid-row:3/9;
+}
+.footer{    
+    background: linear-gradient(to bottom, #dd9a3d 0%, #ca8a30 100%);
+    grid-row: 9/11;
+    grid-column: 1/11;
+}
+a{
+    text-decoration: none;
+}a:hover {
+    color: red;
+}h1 {
+    color: black;
+}
